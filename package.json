@@ -1,0 +1,28 @@
+{
+  "name": "my-phaser-electron-game",
+  "version": "1.0.0",
+  "description": "A modern top-down roguelike game built with Phaser and Electron.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "phaser",
+    "electron",
+    "game",
+    "roguelike"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.0.0",
+    "electron-builder": "^25.0.5",
+    "electron-devtools-installer": "^3.2.0",
+    "electron-packager": "^17.1.2",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "phaser": "^3.85.1"
+  }
+}
